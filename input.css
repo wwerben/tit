@@ -6,6 +6,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .example::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .example {
+      -ms-overflow-style: none;  /* IE i Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+  }
+
 @layer components {
     .underline-animation 
     {

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /tit/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /tit/public/index.php [L,QSA]

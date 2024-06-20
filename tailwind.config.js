@@ -1,7 +1,15 @@
 module.exports = {
   content: [
     './*.{html,js,php}',
-    './admin/**/*.{html,js,php}'
+    './app/views/**/*.{html,js,php}',
+    './app/views/admin/**/*.php',
+    './app/views/reservations/**/*.php',
+    './app/views/user/**/*.{html,js,php}',
+    './app/views/user/*.php',
+    './app/views/user/*.{html,js,php}',
+    './public/**/*.php',
+    './app/views/user/*.{html,js,php}',
+    './*.php'
   ],
   theme: {
     
